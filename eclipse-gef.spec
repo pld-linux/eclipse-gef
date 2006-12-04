@@ -2,8 +2,8 @@
 Summary:	Graphical Editing Framework
 Name:		eclipse-gef
 Version:	3.2.1
-Release:	0.1
-License:	CPL
+Release:	0.2
+License:	EPL v1.0
 Group:		Development/Tools
 Source0:	http://download.eclipse.org/tools/gef/downloads/drops/R-%{version}-%{_buildid}/GEF-ALL-%{version}.zip
 # Source0-md5:	fcf6ea042c70a8628613924e1e227150
@@ -13,7 +13,7 @@ Requires:	eclipse >= 3.2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_eclipsedir	%{_datadir}/eclipse
+%define	_eclipsedir	%{_libdir}/eclipse
 
 %description
 Graphical Editing Framework.
