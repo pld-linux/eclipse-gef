@@ -1,10 +1,11 @@
+%define		_buildid	200609211617
 Summary:	Graphical Editing Framework
 Name:		eclipse-gef
 Version:	3.2.1
 Release:	0.1
 License:	CPL
 Group:		Development/Tools
-Source0:	http://download.eclipse.org/tools/gef/downloads/drops/R-3.2.1-200609211617/GEF-ALL-%{version}.zip
+Source0:	http://download.eclipse.org/tools/gef/downloads/drops/R-%{version}-%{_buildid}/GEF-ALL-%{version}.zip
 # Source0-md5:	fcf6ea042c70a8628613924e1e227150
 #URL:		
 BuildRequires:	unzip
