@@ -1,5 +1,6 @@
 %define		_buildid	200609211617
 Summary:	Graphical Editing Framework
+Summary(pl):	Graphical Editing Framework - ¶rodowisko do edycji graficznej
 Name:		eclipse-gef
 Version:	3.2.1
 Release:	0.2
@@ -10,13 +11,15 @@ Source0:	http://download.eclipse.org/tools/gef/downloads/drops/R-%{version}-%{_b
 #URL:		
 BuildRequires:	unzip
 Requires:	eclipse >= 3.2
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define	_eclipsedir	%{_libdir}/eclipse
 
 %description
 Graphical Editing Framework.
+
+%description -l pl
+Graphical Editing Framework - ¶rodowisko do edycji graficznej.
 
 %prep
 %setup -q -c
