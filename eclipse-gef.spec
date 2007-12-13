@@ -6,7 +6,7 @@ Summary:	Graphical Editing Framework
 Summary(pl.UTF-8):	Graphical Editing Framework - środowisko do edycji graficznej
 Name:		eclipse-gef
 Version:	3.3
-Release:	0.1
+Release:	1
 License:	EPL v1.0
 Group:		Development/Tools
 Source0:	http://download.eclipse.org/tools/gef/downloads/drops/R-%{version}-%{buildid}/GEF-SDK-%{version}.zip
