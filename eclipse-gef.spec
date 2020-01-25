@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.java
 Summary:	Graphical Editing Framework
 Summary(pl.UTF-8):	Graphical Editing Framework - środowisko do edycji graficznej
 Name:		eclipse-gef
